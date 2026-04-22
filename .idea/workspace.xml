@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf8c2da-fc27-4ac9-a80d-197f587bf1ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test_healthcheck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_tasks_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +40,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for tests.test_healthcheck.test_healthcheck_returns_200.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_create_task_returns_201_and_created_task.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_create_task_with_empty_title_returns_422.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_create_task_without_description_returns_201.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_create_task_without_required_task_date_returns_422.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_get_task_by_id_for_nonexistent_task_returns_404.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_get_task_by_id_returns_200_and_task.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_get_task_by_id_with_invalid_id_type_returns_422.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_empty_list_when_no_tasks_exist_for_day.executor": "Run",
+    "Python tests.Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_tasks_only_for_requested_day.executor": "Run",
+    "Python tests.Python tests in test_tasks_api.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -53,6 +68,92 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_tasks_api.py">
+    <configuration name="Python tests for tests.test_tasks_api.test_create_task_returns_201_and_created_task" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bushido_v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_tasks_api.test_create_task_returns_201_and_created_task&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_empty_list_when_no_tasks_exist_for_day" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bushido_v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_tasks_api.test_get_tasks_by_date_returns_empty_list_when_no_tasks_exist_for_day&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_tasks_only_for_requested_day" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bushido_v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_tasks_api.test_get_tasks_by_date_returns_tasks_only_for_requested_day&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_tasks_api.test_patch_task_updates_only_sent_fields" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bushido_v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_tasks_api.test_patch_task_updates_only_sent_fields&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_tasks_api.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="bushido_v2" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_tasks_api.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_tasks_api.py" />
+        <item itemvalue="Python tests.Python tests for tests.test_tasks_api.test_create_task_returns_201_and_created_task" />
+        <item itemvalue="Python tests.Python tests for tests.test_tasks_api.test_patch_task_updates_only_sent_fields" />
+        <item itemvalue="Python tests.Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_empty_list_when_no_tasks_exist_for_day" />
+        <item itemvalue="Python tests.Python tests for tests.test_tasks_api.test_get_tasks_by_date_returns_tasks_only_for_requested_day" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
